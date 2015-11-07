@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>D | Places</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+        <link rel="stylesheet" href="css/production.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header">
+                <div class="col-md-6 text-uppercase text-left hdr-text hdr-section" >
+                    <h1 class="text-fat">Wanderlust</h1>
+                    <h3>To go and to go !</h3>
+                </div>
+                <div class="col-md-6 text-right hdr-section">
+                  <img class="titleimg" src="images/D.jpg" alt="Me!" data-toggle="modal" data-target="#mInfo">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img class="img-responsive mainimg" src="images/main.jpg" alt="Adventure Awaits!">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Been There Done That !</h2>
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <img class="img-responsive fimgs" src="images/Tokyo/fImgTokyo.jpg" alt="Tokyo, Japan." data-toggle="modal" data-target="#mPlace1" data-local="#myPCarousel1">
+                    <h3 class="fWrkTitle">Tokyo, Japan</h3>
+                    <p><a href="http://www.japan-guide.com/e/e2164.html" onclick="window.open(this.href, this.href); return false">Explore !!</a></p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive fimgs" src="images/Kyoto/Kinkakuji.jpg" alt="Kinkakuji Kyoto, Japan." data-toggle="modal" data-target="#mPlace2" data-local="#myPCarousel2">
+                    <h3 class="fWrkTitle">Kyoto, Japan</h3>
+                    <p><a href="http://www.japan-guide.com/e/e2158.html" onclick="window.open(this.href, this.href); return false">Explore !!</a></p>
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <img class="img-responsive fimgs" src="images/Karuizawa/Ski.jpg" alt="Karuizawa, Nagano, Japan." data-toggle="modal" data-target="#mPlace3" data-local="#myPCarousel3">
+                    <h3 class="fWrkTitle">Karuizawa, Nagano, Japan</h3>
+                    <p><a href="http://www.japan-guide.com/e/e6030.html" onclick="window.open(this.href, this.href); return false">Explore !!</a></p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Should be There to Do That !</h2>
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <img class="img-responsive fimgs" src="images/Bali/LakeBratanTemple.jpg" alt="Bali, Indonesia." data-toggle="modal" data-target="#mVisit1" data-local="#myVCarousel1">
+                    <h3 class="fWrkTitle">Bali, Indonesia.</h3>
+                    <p><a href="http://www.nomadicmatt.com/travel-guides/indonesia-travel-tips/bali/" onclick="window.open(this.href, this.href); return false">Explore !!</a></p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive fimgs" src="images/Barcelona/Barcelona.jpg" alt="Barcelona, Spain." data-toggle="modal" data-target="#mVisit2" data-local="#myVCarousel2">
+                    <h3 class="fWrkTitle">Barcelona, Spain.</h3>
+                    <p><a href="http://www.spanish-fiestas.com/barcelona/" onclick="window.open(this.href, this.href); return false">Explore !!</a></p>
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+              <hr>
+              <h2 class="footer">&#34;Not all those who wander are lost&#46;&#34; &#45; J&#46;R&#46;R&#46; Tolkien</h2>
+              <hr>
+            </div>
+            <br>
+        </div>
+        <!-- Tokyo -->
+        <div class="modal fade modal-fullscreen force-fullscreen carousel-fit" id="mPlace1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="modal-title" id="myModalLabel1">
+                    <h2 class="modal-title">Tokyo Scenes !</h2>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div id="myPCarousel1" class="carousel slide carousel-fit" data-ride="carousel" data-interval="10000">
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/Tokyo/sensoji-temple-tokyo.jpg" class="img-responsive carouselimg" alt="Sensoji Temple, Asakusa.">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Sensoji Temple</h3>
+                        <p class="bkgrnd-trans carousel-text">Senso-ji is an ancient Buddhist temple located in Asakusa and is Tokyo&#39;s oldest most significant temple.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Tokyo/odaiba.jpg" class="img-responsive carouselimg" alt="Odaiba, Tokyo.">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Odaiba</h3>
+                        <p class="bkgrnd-trans carousel-text">Odaiba - a large artificial island in Tokyo Bay, across the Rainbow Bridge. The area that opens onto the waterfront offers enjoyment for the whole family throughout the day.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Tokyo/Imperial_place.jpg" class="img-responsive carouselimg" alt="Imperial Palace, Tokyo.">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Imperial Palace</h3>
+                        <p class="bkgrnd-trans carousel-text">The Imperial Palace, situated in the center of Tokyo surrounded by a water-filled moat and tree-covered grounds - a precious taste of nature within the city.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Tokyo/Ramen.jpg" class="img-responsive carouselimg" alt="Food, Tokyo">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Japanese Food</h3>
+                        <p class="bkgrnd-trans carousel-text">Tokyo is every food lover&#39;s paradise; delivered on a completely different level. The authenticity of Japanese food is priceless and memorable.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Tokyo/SkyTree.jpg" class="img-responsive carouselimg" alt="Third slide">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Tokyo as a Metropolis</h3>
+                        <p class="bkgrnd-trans carousel-text">Tokyo&#39;s neon-lit streetscapes still look like a sci-fi film set, pushing the boundaries of what&#39;s possible on an earthquake-prone land, adding ever taller, sleeker structures like the world&#39;s tallest tower-Tokyo Sky Tree.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#myPCarousel1" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#myPCarousel1" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                  <p class="para">Tokyo, Japan&#39;s bustling capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers and anime shops to cherry trees and temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding forests. The Imperial Palace sits amid sprawling public gardens. The city is famed for its vibrant food scene, and its Shibuya and Harajuku districts are the heart of its trendy teen fashion scene. The nightlife is amongst the best in the world. It's so good that people sometimes forget themselves and take things a little too far.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- Kyoto -->
+        <div class="modal fade modal-fullscreen force-fullscreen carousel-fit" id="mPlace2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="modal-title" id="myModalLabel1">
+                    <h2 class="modal-title">Serene Kyoto !</h2>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div id="myPCarousel2" class="carousel slide carousel-fit" data-ride="carousel" data-interval="10000">
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/Kyoto/Autumn.jpg" class="img-responsive carouselimg" alt="Autum">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Autumn in Kyoto</h3>
+                        <p class="bkgrnd-trans carousel-text">Japan&#39;s cherry blossoms are famous the world over, but the fall foliage in Kyoto is perhaps even more beautiful.In the fall all the leaves explode into yellow and red hues -a more restrained beauty that grows on you.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Kyoto/Inari.jpg" class="img-responsive carouselimg" alt="Fushima Inari Shrine, Kyoto.">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Fushima Inari Shrine</h3>
+                        <p class="bkgrnd-trans carousel-text">With seemingly endless arcades of vermilion torii (shrine gates) spread across a mountain, this vast shrine complex is a world unto its own. It is, quite simply, one of the most impressive and memorable sights.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Kyoto/Arashiyama1.jpg" class="img-responsive carouselimg" alt="Arashiyam Bamboo Forest, Kyoto.">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Arashiyama Bamboo Grove</h3>
+                        <p class="bkgrnd-trans carousel-text">Arashiyama is simply oozing with natural beauty, and is a cool oasis away from the heat of Kyoto in the dead of summer. Famous for its bamboo forests, lush with gorgeous bamboo stalks reaching for the sky and for the Togetsukyo Bridge.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Kyoto/Gion.jpg" class="img-responsive carouselimg" alt="Gion, Kyoto.">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Gion, Geisha District</h3>
+                        <p class="bkgrnd-trans carousel-text">Gion is a collection of streets defined by its old wooden buildings, teahouses and exclusive Japanese restaurants, is by far the most famous Geisha district. While Gion&#39;s true origins were in teahouses catering to weary visitors, by the mid-18th century the area was Kyoto&#39;s largest pleasure district.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Kyoto/TeaCeremony.jpg" class="img-responsive carouselimg" alt="Third slide">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Tea Ceremony</h3>
+                        <p class="bkgrnd-trans carousel-text">Zen again, but this time in a tea cup. The cleansing of the tea utensils, the gentle bow as you receive your cup, the three clockwise turns before you take a sip: it&#39;s not difficult to see how deeply rooted the slow and graceful movements of the tea ceremony are in Zen Buddhism.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#myPCarousel2" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#myPCarousel2" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                  <p class="para">Japan&#39;s capital for over 1,000 years, Kyoto remains awash with remnants of its past glory. The city's stunning collection of UNESCO World Heritage sites alone would be enough to set it apart, but Kyoto also boasts a still-working geisha district, some of Japan&#39;s most exquisite cuisine, and a whole lot of Zen. Not that it's all temples and tradition: the city also hosts its share of hip cafes and modern art. Think of it as the cultural yin to Tokyo&#39;s yang, but with a sprinkling of modernity.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Karuizawa -->
+        <div class="modal fade modal-fullscreen force-fullscreen carousel-fit" id="mPlace3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="modal-title" id="myModalLabel1">
+                    <h2 class="modal-title">Karuizawa !</h2>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div id="myPCarousel3" class="carousel slide carousel-fit" data-ride="carousel" data-interval="10000">
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/Karuizawa/Shiraito.jpg" class="img-responsive carouselimg" alt="Shiraito Falls, Karuizawa.">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Shiraito Falls</h3>
+                        <p class="bkgrnd-trans carousel-text">Shiraito Falls are a graceful expanse of waterfalls located north of Karuizawa. The falls are only 3 meters tall, but they are spread out over a 70 meter wide arch.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Karuizawa/naka.jpg" class="img-responsive carouselimg" alt="Naka-Karuizawa.">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Naka-Karuizawa</h3>
+                        <p class="bkgrnd-trans carousel-text">Naka-Karuizawa, a classy and romantic area well-suited to spend a relaxing time at.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Karuizawa/SnowResort.jpg" class="img-responsive carouselimg" alt="Arashiyam Bamboo Forest, Kyoto.">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Prince Snow Resort</h3>
+                        <p class="bkgrnd-trans carousel-text">The biggest ski area in Karuizawa is operated by the Prince Snow Resort, with ten slopes covering Mt. Yagasaki, almost to its 1,155m summit, each with a chairlift.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Karuizawa/KaruizawaShopping.jpg" class="img-responsive carouselimg" alt="Karuizawa Prince Shopping Plaza">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Karuizawa Prince Shopping Plaza</h3>
+                        <p class="bkgrnd-trans carousel-text">Karuizawa sports Japan&#39;s largest shopping mall, featuring outlet shops of overseas designer brands. Its approximately 200 shops offer everything from famous fashions to distinctive souvenirs, all in a natural setting with impressive views of Mt Asama.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="left carousel-control" href="#myPCarousel3" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#myPCarousel3" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                  <p class="para">Karuizawa is a popular mountain resort town only an hour from Tokyo on the Nagano Shinkansen bullet train and has a large outlet store shopping mall. Nestled at the foot of mountains in the middle of Honshu; located near the active volcano, Mt. Asama in Nagano prefecture. Karuizawa in summer offers some highland respite at an elevation of around 1,000m from the heat of big cities, and in winter attracts people with its numerous relaxing natural hot spas (onsen). The dramatic changing of the seasons is one of the many reasons why Karuizawa is considered one of the most attractive areas of Japan.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="modal fade modal-fullscreen force-fullscreen carousel-fit" id="mVisit1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="modal-title" id="myModalLabel4">
+                    <h2 class="modal-title">Bali Adventure</h2>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div id="myVCarousel1" class="carousel slide carousel-fit" data-ride="carousel" data-interval="10000">
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/Bali/Beaches.jpg" class="img-responsive carouselimg" alt="Beach">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Sanur Beach, Bali.</h3>
+                        <p class="bkgrnd-trans carousel-text">Sanur Beach is a beautiful white sandy beach with calm and warm seawater located in east part of Denpasar Town.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Bali/Rafting.jpg" class="img-responsive carouselimg" alt="Adventure">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Adventures Bali</h3>
+                        <p class="bkgrnd-trans carousel-text">Adventure activities in Bali - Rafting, Cruise, Elephant Ride, Watersport, Seawalker, Horse riding, ATV, Buggy, and much more.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Bali/Ayana-Spa-Jimbaran.jpg" class="img-responsive carouselimg" alt="Ayana Resort">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Ayana Resort</h3>
+                        <p class="bkgrnd-trans carousel-text">AYANA Resort and Spa Bali is a world-class destination resort located on a cliff-top land perched above Jimbaran Bay. Majestic sunsets and ocean-front views are complemented by white-sand beach and shared facilities as Bali’s only integrated resort.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Bali/Cave.jpg" class="img-responsive carouselimg" alt="Uluwatu Bali Cave">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Uluwatu Bali Caves</h3>
+                        <p class="bkgrnd-trans carousel-text">Uluwatu Beach Cave is a fantastic little spot with a grotto style cave entrance and a series of quaint restaurants sitting atop cliffs with a great view of the sunset and surf.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Bali/Culture.jpg" class="img-responsive carouselimg" alt="Culture">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Balinese People</h3>
+                        <p class="bkgrnd-trans carousel-text">Bali is known as a place where traditions of art and culture predominate, where the village way of life based on their strong religious beliefs is still in place.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="left carousel-control" href="#myVCarousel1" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#myVCarousel1" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                <p class="para">Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs. The island is home to religious sites such as cliffside Uluwatu Temple. To the south, the beachside city of Kuta has lively bars, while Seminyak, Sanur and Nusa Dua are popular resort towns. The island is also known for its yoga and meditation retreats..</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Barcelona, Spain. -->
+        <div class="modal fade modal-fullscreen force-fullscreen carousel-fit" id="mVisit2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="modal-title" id="myModalLabel5">
+                    <h2 class="modal-title">Beautiful Barcelona!</h2>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div id="myVCarousel2" class="carousel slide carousel-fit" data-ride="carousel" data-interval="10000">
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/Barcelona/Museu_Picasso_Barcelona.jpg" class="img-responsive carouselimg" alt="Museu Picasso Barcelona">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Picasso Museum</h3>
+                        <p class="bkgrnd-trans carousel-text">With over 3,700 works dedicated to the most famous Spanish artist of the 20th century Pablo Ruiz Picasso, this museum will have you enthralled for many hours.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Barcelona/Plazza.jpg" class="img-responsive carouselimg" alt="Adventure">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Placa Reial</h3>
+                        <p class="bkgrnd-trans carousel-text">A beautiful square located just off Las Ramblas, with traditional Spanish and Catalan restaurants in Barcelona. Placa Reial is also home to some of Barcelona’s best nightclubs.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Barcelona/Sagrada-Familia.jpg" class="img-responsive carouselimg" alt="Sagrada Familia">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Sagrada Familia</h3>
+                        <p class="bkgrnd-trans carousel-text">This iconic Roman Catholic Church is a tribute to influences from Cubism to Art Nouveau with striking features including intricate vaults, front portal sculptures and three grandiose facades depicting various images of Christ.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Barcelona/ParcGuell.jpg" class="img-responsive carouselimg" alt="Parc Guell">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">Parc Guell</h3>
+                        <p class="bkgrnd-trans carousel-text">Parc Guelli is a UNESCO World Heritage Site and is considered to one of Gaudi's most artistic works.</p>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="images/Barcelona/FCBarcelona.jpg" class="img-responsive carouselimg" alt="FC Barcelona">
+                      <div class="carousel-caption">
+                        <h3 class="bkgrnd-trans carousel-hdr">FC Barcelona</h3>
+                        <p class="bkgrnd-trans carousel-text">The Nou Camp is home to the Catalan Giants renowned for playing their own style of fantasy football which takes “pass and move” to the next level.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="left carousel-control" href="#myVCarousel2" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#myVCarousel2" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+                <p class="para">Barcelona is the passionate capital of Catalonia, an unforgettable city of art, culture and beauty. Gaudi's works, museums, concerts and FC Barcelona’s football team homeland. Walk along the Ramblas to enjoy street musicians, living statues, hustlers and just plain loonies. Hop onto the Tramvia Blau for a tram trip up to the top of Tibidabo and take in the magnificent sights of the city below you. Shop along the Passeig de Gracia, at the most well known boutiques in Barcelona. Have a sunset drink at a chiringuito bar on the Barceloneta beach, then after dark, join the locals for pub crawling at the Barri Gotic for a huge selection of tapas bars, wine bars, cocktail lounges and even Irish pubs! Now that you've worked up an appetite, head for El Born where you'll find the finest in new catalonian cuisine.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="mInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="modal-title" id="myModalLabel5">
+                    <h2 class="modal-title">Know Me !</h2>
+                </div>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive hdrImg" src="images/D.jpg" alt="Know D !">
+                <p class="para meDesc">Hey ! I am Divya a.k.a. D ! An IT professional, coding to make a living in a giant MNC. 
+                  I love what I do; writing alphabets in a logical way to ease the human workload. My alter ego is an artist.
+                  Love sketching cars and anime; enjoy crafting new things. Have been descibed as a "brilliant gift maker". A dash of
+                  this creativity is seen in the code I write. New unique ways to do the same old boring stuff. I love travelling too.
+                  To be honest I haven't seen many places. But I intend to go rolling around the world once I come in contact with a leprechaun
+                  at the end of a rainbow. When you travel, you get be you in new place. Watch the sun rise and shine; take in the beauty that is around you. Enjoy every moment; eat and be merry. See new faces; make new friends. Be at peace and LIVE !!!
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
