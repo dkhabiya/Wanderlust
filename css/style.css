@@ -1,0 +1,130 @@
+* {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: 400;
+	background-color: #13315C;
+	text-shadow: 0 0 4px black;
+}
+h1 {
+	color: #FFFFFF;
+}
+h2 {
+	color: #FFFFFF;
+	font-weight: 200;
+}
+h3 {
+	color: #FF4102;
+	font-weight: bold;
+}
+.text-fat {
+	font-weight: 700;
+}
+.para {
+	font-size: 21px;
+	font-weight: 600;
+	text-shadow: none;
+}
+.titleimg {
+	max-width: 120px;
+	max-height: 120px;
+	padding-top: 10px;
+	text-align: right;
+}
+.mainimg {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 20px;
+}
+
+.para,
+.modal-body,
+.modal-footer {
+	background-color: #FFFFFF;
+}
+
+.modal {
+	background-color: #0C0C0C;
+}
+.btn {
+	background-color: #D3D5D7;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+.modal-header,
+.modal-title {
+	background-color: #A8ADAF;
+	font-weight: 500;
+}
+
+.fWrkTitle {
+	font-size: 30px;
+	color: #08A045;
+}
+a {
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.footer {
+	text-align: center;
+	color: #FF5A5F;
+}
+.fimgs {
+	max-width: 90%;
+	max-height: 90%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+}
+.carousel-indicators,
+.glyphicon {
+	background-color: rgba(0, 0, 0, 0.1);
+	padding-bottom: 0;
+	margin-bottom: 0;
+	bottom: 15px;
+}
+.carouselimg {
+	max-height: 75%;
+	max-width: 75%;
+	padding: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-caption,
+.bkgrnd-trans {
+	background-color: transparent;
+	margin: 2px;
+	padding: 2px;
+}
+.carousel-text,
+.carousel-hdr {
+	color: #fff;
+    font-family: "Tahoma";
+    margin: 2px;
+    padding: 0;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+    font-size: 12px;
+}
+.modal-dialog {
+	margin-right: auto;
+    margin-left: auto;
+    width: 56%;
+}
+.hdrImg {
+	max-height: 40%;
+	max-width: 40%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.hdrText {
+	max-width: 50%;
+	padding-right: 20px;
+	margin-right:  20px;
+}
+.hdrSection {
+	display: flex;
+}
